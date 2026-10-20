@@ -1,20 +1,31 @@
 # REPLAY Grenoble — Site complet du TD
 
-## Réimporter dans le dépôt existant
+Version du 20 octobre 2026 : analyse simplifiée.
 
-1. Décompressez l’archive REPLAY-IMPORT-COMPLET.zip.
-2. Ouvrez le dépôt pangonformations-creator/b3-veille-et-etudes-cas-replay, à sa racine.
-3. Choisissez Add file > Upload files et déposez tout le contenu décompressé : le dossier docs, index.html, README.md et les fichiers de configuration visibles.
-4. Validez avec Commit changes et attendez la fin de la publication GitHub Pages.
+## Réimporter tout le site sur GitHub
 
-Conservez le réglage Pages actuel : main, /(root). Le fichier index.html à la racine ouvre automatiquement le TD situé dans docs.
+1. Décompressez REPLAY-IMPORT-COMPLET.zip.
+2. Ouvrez votre dépôt b3-veille-et-etudes-cas-replay à sa racine.
+3. Choisissez Add file > Upload files. Déposez tout le contenu décompressé, notamment le dossier docs et le fichier index.html.
+4. Validez Commit changes. Attendez la fin de la publication GitHub Pages, puis actualisez le site.
 
-Lien étudiant existant, conservé :
+Conservez le réglage Pages actuel : main, /(root). Le fichier index.html à la racine redirige vers le TD dans docs.
+
+Lien étudiant conservé :
 https://pangonformations-creator.github.io/b3-veille-et-etudes-cas-replay/docs/
 
-Le lien de la racine ouvrira aussi le TD après la mise à jour :
-https://pangonformations-creator.github.io/b3-veille-et-etudes-cas-replay/
+## Changements inclus
 
-La question 3 de la proposition d’étude est simplifiée. La demande concernant l’accessibilité, le réemploi et l’accueil des novices est retirée de cette consigne et de la trame.
-La partie 3 reste chiffrée et conserve son mot de passe. Les corrigés enseignants ne sont pas inclus.
-Il s’agit du site complet : images, polices, styles, navigation et données chiffrées sont fournis.
+- Questionnaire à rédiger dans le document de groupe uniquement ; aucun formulaire en ligne ni lien à remettre.
+
+- Suppression de l’exercice de nettoyage.
+- Base quantitative de 240 personnes, prête à analyser, avec des colonnes lisibles et les services en Oui/Non.
+- Consignes d’analyse plus courtes, identifiées Quantitatif ou Qualitatif.
+- Trois tris à plat, un graphique, moyenne et médiane chez les acheteurs, deux tris croisés.
+- Analyse qualitative en trois thèmes et trois citations.
+- Consigne du guide d’entretien simplifiée : introduction et 6 à 8 questions ouvertes, sans entretien à réaliser.
+- Les 12 entretiens fictifs et le guide de référence sont conservés à l’identique.
+- Les recommandations sont conservées.
+- Le mot de passe de la partie 3 a été changé et respecte les majuscules. Il est communiqué séparément.
+
+La partie 3 et ses neuf documents restent chiffrés. Les corrigés enseignants et les données non chiffrées sont exclus de cette archive.

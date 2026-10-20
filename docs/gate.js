@@ -17,7 +17,7 @@
   }
   async function unlock(password) {
     packet = await bundle();
-    const normal = password.normalize('NFKC').trim().toLocaleLowerCase('fr').replace(/\s+/g,' ');
+    const normal = password.normalize('NFKC').trim().replace(/\s+/g,' ');
     const material = await crypto.subtle.importKey('raw',new TextEncoder().encode(normal),'PBKDF2',false,['deriveKey']);
     const key = await crypto.subtle.deriveKey({name:'PBKDF2',salt:decode(packet.salt),iterations:packet.iterations,hash:'SHA-256'},material,{name:'AES-GCM',length:256},true,['decrypt']);
     const result = await decrypt(key);
